@@ -10,6 +10,6 @@ const filteredObject = {
   age: person.age
 };
 
-const json = JSON.stringify(person);
+const json = JSON.stringify(filteredObject);
 
-console.log(json); // Should return: { id: 1, age: 25 }
+console.log(json);
